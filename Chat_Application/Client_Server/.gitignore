@@ -1,0 +1,9 @@
+# Node modules
+node_modules/
+
+# Log files
+logs/
+*.log
+
+# Configuration file with sensitive info
+config.json
