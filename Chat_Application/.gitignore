@@ -5,5 +5,16 @@ out/
 config.properties
 
 
+# dependencies
+/backend/node_modules/
+
+# environment
+/backend/.env
+
+# logs
+/backend/logs
+/backend/*.log
+npm-debug.log*
+
 *.iml
 .idea/
