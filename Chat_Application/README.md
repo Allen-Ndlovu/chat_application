@@ -1,5 +1,15 @@
-# ChatClient
+# Advanced Chat Application
 
-A JavaFX client for the custom chat application with AI integration. Connects to the Node.js backend via WebSocket.
+An end‑to‑end real‑time chat app with a **JavaFX** front‑end and a **Node.js** + **WebSocket** back‑end, featuring:
+
+- **Authentication** (JWT + bcrypt)
+- **Persistent chat history** (MongoDB)
+- **Global rooms** + **private messaging**
+- **Typing indicators** & **online user list**
+- **Responsive, styled UI** (FXML + CSS)
+- Easily extensible (file attachments, read‑receipts, E2E encryption…)
+
+---
+
 
 
