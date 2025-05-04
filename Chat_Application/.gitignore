@@ -18,3 +18,25 @@ npm-debug.log*
 
 *.iml
 .idea/
+
+# compiled Java classes
+/frontend/target/
+/frontend/bin/
+
+# IDE/project files
+# IntelliJ
+/frontend/.idea/
+/frontend/*.iml
+# Eclipse
+/frontend/.classpath
+/frontend/.project
+/frontend/.settings/
+/frontend/.factorypath
+
+# VS Code
+/frontend/.vscode/
+
+# JavaFX cache
+/frontend/.javafx-cache/
+
+

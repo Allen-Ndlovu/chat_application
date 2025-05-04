@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javax.swing.text.html.ListView?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.chatapp.controllers.ChatController"
+            stylesheets="@../css/style.css">
+    <left>
+        <VBox spacing="10" prefWidth="150" styleClass="sidebar">
+            <Label text=" Online Users" styleClass="sidebar-title"/>
+            <ListView fx:id="usersList"/>
+        </VBox>
+    </left>
+    <center>
+        <VBox spacing="5">
+            <ListView fx:id="messagesList" prefHeight="500"/>
+            <Label fx:id="typingLabel" styleClass="typing"/>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox spacing="5" styleClass="input-bar">
+            <TextField fx:id="messageField" promptText="Type a message…" onKeyTyped="#onTyping" HBox.hgrow="ALWAYS"/>
+            <Button text="Send" onAction="#onSend"/>
+        </HBox>
+    </bottom>
+</BorderPane>

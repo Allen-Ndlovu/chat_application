@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.chatapp.controllers.LoginController"
+            stylesheets="@../css/style.css"
+            prefWidth="400" prefHeight="300">
+    <children>
+        <VBox alignment="CENTER" spacing="15"
+              AnchorPane.topAnchor="40" AnchorPane.leftAnchor="40"
+              AnchorPane.rightAnchor="40" AnchorPane.bottomAnchor="40">
+            <Label text="🔒 Chat Login" styleClass="title"/>
+            <TextField fx:id="usernameField" promptText="Username"/>
+            <PasswordField fx:id="passwordField" promptText="Password"/>
+            <Button text="Login" onAction="#onLogin"/>
+            <Label fx:id="errorLabel" textFill="red"/>
+        </VBox>
+    </children>
+</AnchorPane>

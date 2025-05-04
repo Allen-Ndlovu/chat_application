@@ -1,0 +1,27 @@
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+.sidebar {
+    -fx-padding: 10;
+    -fx-background-color: #f4f4f4;
+}
+.sidebar-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.input-bar {
+    -fx-padding: 10;
+    -fx-background-color: #e9e9e9;
+}
+.typing {
+    -fx-text-fill: gray;
+    -fx-padding: 0 5 0 5;
+}
+.button {
+    -fx-background-radius: 15;
+    -fx-padding: 5 15;
+}
+.text-field, .password-field, .list-view {
+    -fx-background-radius: 5;
+}
